@@ -52,7 +52,7 @@ Innan du går vidare:
 * Vad heter *användargränssnitt* på engelska?
 * Vad står förkortningen *GUI* för?
 * Hur många argument tar funktionen `addEventListener`?
-* Öppna upp konsolen och utforska string interpolation.
+* Öppna upp konsolen och utforska [string interpolation](https://www.youtube.com/watch?v=SZ9baLwdOro).
 
 ## Steg 2 Implementera linjär sökning
 En väldig enkel metod är att göra så kallad "linjär sökning". Man söker alltså från början till slut, ett tal i taget `0, 1, 2, 3, 4, 5, ...` eller från slutet `100, 99, 98, 97, ...`.
