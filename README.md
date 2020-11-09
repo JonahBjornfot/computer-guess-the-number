@@ -2,12 +2,14 @@
 
 Vi ska nu vända på steken och göra det motsatta. Vi (människan) ska tänka på ett hemligt nummer och **datorn ska försöka gissa vilket det är!**
 
+*(klicka på bilden för demo)*
+
+[![Demo 1](https://img.youtube.com/vi/HGuywr3iZkg/0.jpg)](https://www.youtube.com/watch?v=HGuywr3iZkg)
+
 1. Användaren tänker på ett nummer och säger till när den är redo.
 2. Datorn gissar på ett nummer.
 3. Användaren ger feedback genom att klicka på en av tre knappar ("Too high!", "Too low!", "Correct!")
 4. Gå till punkt 4
-
-<!-- Demo-länk här. -->
 
 ## Innan du börjar
 1. Starta den lokala servern genom att klicka på **Go Live** och titta på sidan i sitt nuvaranda skick. Öppna *Developer Tools* i Chrome.
@@ -150,8 +152,10 @@ Självförklarande.
 ## Fördjupning (avancerat): User Bot!
 Skapa en bot, så att datorn kan spela mot sig själv!
 
+*(klicka på bilden för demo)*
+
+[![Demo 1](https://img.youtube.com/vi/GlWF9rw3olI/0.jpg)](https://www.youtube.com/watch?v=GlWF9rw3olI)
+
 Använd `setInterval` så att bot:en bara gissar en gång i sekunden (annars går det för snabbt för ögat)
 
 Lägg till en knapp på första sidan, så att man kan välja om man ska svara själv som användare eller om man ska starta boten.
-
-<!-- Demo-länk här. -->
