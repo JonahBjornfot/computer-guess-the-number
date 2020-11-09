@@ -115,6 +115,7 @@ Implementera denna strategi.
 
 <details>
 <summary>Ledtråd 1</summary>
+
 Du behöver skapa nya globala variabler för att minnas det högsta och minsta möjliga värdet.
 ````javascript
     let guess = 50
@@ -124,6 +125,7 @@ Du behöver skapa nya globala variabler för att minnas det högsta och minsta m
 </details>
 <details>
 <summary>Ledtråd 2</summary>
+
 Vad är värdet mitt emellan `minGuess` och `maxGuess`?
 ````javascript
     (minGuess + maxGuess) / 2
