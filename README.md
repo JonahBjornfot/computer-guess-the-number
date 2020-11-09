@@ -22,7 +22,27 @@ Diskutera igenom **uppgiften och den befintliga koden** tillsammans med din grup
 
 Användargränssnittet är inte helt klart.
 1. Lägg till en till knapp med texten *"Correct!"* mellan de andra två knapparna. Ge den id:t `is-correct-btn`
-2. Skapa en funktion `setMessage(msg)` som sätter meddelandet på sidan (elementet som har `id="message`)
+2. Skapa en funktion `setMessage(msg)` som sätter meddelandet på sidan (elementet som har `id="message`).
+
+<details>
+<summary>Ledtråd 1</summary>
+
+````javascript
+    document.getElementById('message').innerText = 'foooo'
+````
+</details>
+<details>
+<summary>Ledtråd 2 (lösning)</summary>
+
+````javascript
+    function setMessage(msg) {
+        document.getElementById('message').innerText = msg
+    }
+````
+
+</details>
+
+
 3. När användaren säger att gissningen var rätt, sätt meddelandet till `"Woho! :)"`. **Testa att knappen fungerar.**
 4. Avkommentera den sista raden i funktionen `start`. Det är ett exempel på **string interpolation**.
 

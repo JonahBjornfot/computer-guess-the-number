@@ -14,10 +14,6 @@ document.getElementById('too-low-btn').addEventListener('click', function () {
 })
 
 
-function setMessage(msg) {
-    document.getElementById('message').innerText = msg
-}
-
 function start() {
     document.getElementById('before-start').style.display = 'none'
     document.querySelector('main').style.display = 'block'
