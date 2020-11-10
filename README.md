@@ -161,3 +161,30 @@ Skapa en bot, så att datorn kan spela mot sig själv!
 Använd `setInterval` så att bot:en bara gissar en gång i sekunden (annars går det för snabbt för ögat)
 
 Lägg till en knapp på första sidan, så att man kan välja om man ska svara själv som användare eller om man ska starta boten.
+
+<details>
+<summary>Ledtråd 1</summary>
+
+Börja med att skapa en funktion `startBot`
+````javascript
+    function startBot() {
+        const secretNumber = 46 // Or generate a random number, rather!
+        
+        setInterval(function() {
+            // if guess > secretNumber 
+            
+            // if guess < secretNumber
+            
+            // ...
+            
+        }, 1000)
+    }
+````
+</details>
+
+
+<details>
+<summary>Ledtråd 2</summary>
+
+Använd `click`-metoden. Läs mer [här](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/click).
+</details>
