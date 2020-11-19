@@ -3,7 +3,7 @@ let minGuess = 0
 
 let maxGuess = 100
 
-let guess
+let guess 
 
 document.getElementById('too-high-btn').addEventListener('click', function () {
     maxGuess = guess
@@ -31,24 +31,17 @@ function start() {
     document.getElementById('before-start').style.display = 'none'
     document.querySelector('main').style.display = 'block'
 
-    gissning()
+    guess = Math.round(Math.random() * 101)
 
     setMessage(`Is it ${guess}?`);
-}
-globalThis.setMessage = setMessage;
-
-function gissning(){
-    guess = Math.round(Math.random() * 101)
 }
 
 function mittenhög(hög, låggiss){
     låggiss = (hög + guess)/2
-    console.log(guess)
     return Math.round(låggiss)
 }
 
 function mittenlåg(låg, höggiss){
     höggiss = (låg + guess)/2
-    console.log(guess)
     return Math.round(höggiss)
 }

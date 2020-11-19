@@ -1,7 +1,7 @@
 :root {
-    --primary-color: hsl(330, 100%, 71%);
-    --primary-light-color: hsl(330, 100%, 80%);
-    --primary-bg-color: hsla(330, 15%, 95%);
+    --primary-color: hsl(180, 88%, 61%);
+    --primary-light-color: hsla(180, 88%, 61%, 0.74);
+    --primary-bg-color: rgba(0, 0, 0, 0.377);
 }
 
 * {
@@ -18,7 +18,7 @@ body {
     background-size: cover;
     background-image: 
         linear-gradient(black, var(--primary-color)),
-        url('https://images.unsplash.com/photo-1571844885558-a9437588b208?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3780&q=80');
+        url('https://cdn.wallpapersafari.com/34/92/umyo0t.jpg');
     background-blend-mode: hue;
 }
 
@@ -59,4 +59,8 @@ button, input {
     box-shadow: none;
 
     background-image: none !important;
+}
+
+p {
+    color: antiquewhite;
 }
